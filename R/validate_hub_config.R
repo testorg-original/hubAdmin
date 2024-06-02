@@ -107,8 +107,8 @@ validate_hub_config <- function(hub_path = ".", schema_version = "from_config",
   attr(validations, "config_dir") <- fs::path(hub_path, "hub-config")
   attr(validations, "schema_version") <- schema_version
   attr(validations, "schema_url") <- gsub(
-    "https://raw.githubusercontent.com/testorg-original/schemas/",
-    "https://github.com/testorg-original/schemas/tree/",
+    "https://raw.githubusercontent.com/testorg-rename/schemas/",
+    "https://github.com/testorg-rename/schemas/tree/",
     unique(schema_url_dirnames),
     fixed = TRUE
   )

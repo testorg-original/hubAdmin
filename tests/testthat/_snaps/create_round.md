@@ -102,7 +102,7 @@
       attr(,"round_id")
       [1] "round_1"
       attr(,"schema_id")
-      [1] "https://raw.githubusercontent.com/testorg-original/schemas/main/v2.0.1/tasks-schema.json"
+      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.1/tasks-schema.json"
 
 ---
 
@@ -211,7 +211,7 @@
       attr(,"round_id")
       [1] "origin_date"
       attr(,"schema_id")
-      [1] "https://raw.githubusercontent.com/testorg-original/schemas/main/v2.0.1/tasks-schema.json"
+      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.1/tasks-schema.json"
 
 # create_round name matching works correctly
 

@@ -130,7 +130,7 @@ check_input <- function(input, property, parent_schema, # nolint: cyclocomp_lint
           "!" = "Cannot determine appropriate type for argument
         {.arg {property_name}}, type validation skipped.
          Schema may be invalid. Consult relevant schema and consider opening an issue at
-        {.url https://github.com/testorg-original/schemas/issues}"
+        {.url https://github.com/testorg-rename/schemas/issues}"
         ),
         call = call
       )

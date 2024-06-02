@@ -50,12 +50,12 @@ argument is required and defines the unit of time steps. if \code{is_step_ahead}
 \item{schema_version}{Character string specifying the json schema version to
 be used for validation. The default value \code{"latest"} will use the latest version
 available in the Infectious Disease Modeling Hubs
-\href{https://github.com/testorg-original/schemas}{schemas repository}.
+\href{https://github.com/testorg-rename/schemas}{schemas repository}.
 Alternatively, a specific version of a schema (e.g. \code{"v0.0.1"})  can be
 specified.}
 
 \item{branch}{The branch of the Infectious Disease Modeling Hubs
-\href{https://github.com/testorg-original/schemas}{schemas repository}
+\href{https://github.com/testorg-rename/schemas}{schemas repository}
 from which to fetch schema. Defaults to \code{"main"}.}
 }
 \value{

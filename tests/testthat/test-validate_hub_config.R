@@ -27,7 +27,7 @@ test_that("Hub with config errors fails validation", {
 
   expect_equal(
     attr(val, "schema_url"),
-    "https://github.com/testorg-original/schemas/tree/main/v2.0.0"
+    "https://github.com/testorg-rename/schemas/tree/main/v2.0.0"
   )
 
   expect_equal(
