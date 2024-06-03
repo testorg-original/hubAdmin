@@ -106,7 +106,7 @@
       attr(,"n")
       [1] 1
       attr(,"schema_id")
-      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.1/tasks-schema.json"
+      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.2/tasks-schema.json"
 
 ---
 
@@ -331,7 +331,7 @@
       attr(,"n")
       [1] 2
       attr(,"schema_id")
-      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.1/tasks-schema.json"
+      [1] "https://raw.githubusercontent.com/testorg-rename/schemas/main/v2.0.2/tasks-schema.json"
 
 # create_round errors correctly
 
