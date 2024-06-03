@@ -92,9 +92,9 @@ validate_schema_version_property <- function(validation, config = c("tasks", "ad
     )
   }
 
-  check_prefix <- grepl("https://raw.githubusercontent.com/testorg-rename/schemas/main/",
+  check_prefix <- grepl("https://raw.githubusercontent.com/testorg-(rename|original)/schemas/main/",
     schema_version,
-    fixed = TRUE
+    fixed = FALSE
   )
 
   if (!check_prefix) {
