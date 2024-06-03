@@ -44,11 +44,11 @@ check_config_schema_version <- function(schema_version, config = c("tasks", "adm
     ))
   }
 
-  check_prefix <- grepl(
-    "https://raw.githubusercontent.com/testorg-rename/schemas/main/",
-    schema_version,
-    fixed = TRUE
+  check_prefix <- grepl("https://raw.githubusercontent.com/testorg-(rename|original)/schemas/main/",
+                        schema_version,
+                        fixed = FALSE
   )
+
 
   if (!check_prefix) {
     cli::cli_abort(c(
